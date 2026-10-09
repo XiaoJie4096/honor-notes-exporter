@@ -1,0 +1,18 @@
+{
+  "name": "honor-notes-exporter",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome/Edge extension that exports Honor cloud notes to Markdown with original images.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/run.mjs"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.8"
+  }
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="popup.css">
+    <title>荣耀笔记导出器</title>
+  </head>
+  <body>
+    <main>
+      <h1>荣耀笔记导出器</h1>
+      <p id="status">请打开荣耀云笔记页面。</p>
+      <progress id="progress" value="0" max="100" hidden></progress>
+      <p id="detail" hidden></p>
+      <div class="actions">
+        <button id="sample" type="button">导出 10 条验证</button>
+        <button id="all" type="button">导出全部 / 继续</button>
+      </div>
+      <p class="hint">文本和图片笔记将保存为 Markdown 与原图 ZIP。手写和已加密锁定的笔记会跳过，并记录在 export-report.json 中。</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
