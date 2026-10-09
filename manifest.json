@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "荣耀笔记导出器",
   "version": "0.2.0",
-  "description": "在浏览器里把荣耀云笔记导出为 Markdown 与原图 ZIP，无需安装其他软件。",
+  "description": "把荣耀云笔记导出为 Markdown（.md）文件与原图 ZIP，免安装、无需装任何其他软件。",
   "permissions": ["tabs", "storage"],
   "host_permissions": ["https://cloud.honor.com/*", "https://fileproxy-drcn.cloud.honor.com/*"],
   "icons": {
